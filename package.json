@@ -1,0 +1,38 @@
+{
+  "name": "siteswap",
+  "version": "0.0.0",
+  "description": "A library for juggling siteswap operations.",
+  "scripts": {
+    "test": "make"
+  },
+  "keywords": [
+    "juggling",
+    "siteswap",
+    "library"
+  ],
+  "author": "jim.lloyd@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "debug": "^2.0.0",
+    "jshint": "^2.5.5",
+    "mocha": "^1.21.4"
+  },
+  "jshintConfig": {
+    "node": true,
+    "globalstrict": false,
+    "indent": 2,
+    "globals": {
+      "expect": true,
+      "describe": true,
+      "it": true
+    }
+  },
+  "main": "./lib/siteswap.js",
+  "directories": {
+    "test": "test"
+  }
+}
