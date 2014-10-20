@@ -25,9 +25,12 @@
     "node": true,
     "globalstrict": false,
     "indent": 2,
+    "undef": true,
+    "unused": true,
     "globals": {
       "expect": true,
       "describe": true,
+      "ok": true,
       "it": true
     }
   },
